@@ -1,0 +1,13 @@
+services:
+  warehouse:
+    image: gradle:8.10.2-jdk21
+    working_dir: /app
+    command: gradle run --no-daemon --console=plain
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/app
+      - gradle-cache:/home/gradle/.gradle
+
+volumes:
+  gradle-cache:
