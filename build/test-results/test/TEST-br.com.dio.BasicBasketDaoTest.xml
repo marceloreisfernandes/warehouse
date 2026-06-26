@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.dio.BasicBasketDaoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-06-26T12:47:46" hostname="84afb2a55447" time="0.058">
+  <properties/>
+  <testcase name="addAllThenFindAllShouldReturnStoredBaskets()" classname="br.com.dio.BasicBasketDaoTest" time="0.058"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
